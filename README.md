@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Freeshopps Admin Panel
 
-## Getting Started
+A fully responsive admin panel built with **Next.js** and **Tailwind CSS**, designed as part of an assessment task. The panel includes user authentication, dashboard overview, and full CRUD operations for FAQs, Help Center, and Articles.
 
-First, run the development server:
+## 🔗 Live Demo
+
+[View Live Site](https://admin-panel-flyweis-git-main-ajinas-projects.vercel.app/)
+
+## 🛠️ Features
+
+- **Login & Forgot Password** screens with form validation.
+- **Admin Dashboard** displaying key metrics.
+- **FAQs Section**: 
+  - Add, View, Edit, Delete FAQs
+- **Help Center Section**: 
+  - Manage Help Center content (Add, Edit, Delete, View)
+- **Articles Section**:
+  - Full CRUD operations for support articles
+- **Responsive Design** for all screen sizes
+
+## 📂 Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment**: [Vercel](https://vercel.com/)
+- **API Tool**: Used provided Postman collection for API integration
+
+## 📦 Backend & API Reference
+
+- Figma Design: [Figma Prototype](https://www.figma.com/proto/ztzp2OkhHC6aEK6zdp33A4/Freeshopps-admin-panel?page-id=2004%3A2&node-id=2095-6198&viewport=714%2C241%2C0.1&t=MCId7tcc9vRKppOk-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2004%3A7)
+- Postman Collection: `Mamun-Reza-Freeshopps-Backend.postman_collection.json`
+- Hosted Backend: [https://mamun-reza-freeshopps-backend.vercel.app/](https://mamun-reza-freeshopps-backend.vercel.app/)
+
+## 📸 Screens Developed
+
+1. **Login Page**
+2. **Forgot Password Page**
+3. **Dashboard Overview**
+4. **FAQ Management**
+5. **Help Center Management**
+6. **Article Management**
+
+## ✅ How to Run Locally
 
 ```bash
+git clone https://github.com/YOUR-USERNAME/admin-panel-flyweis.git
+cd admin-panel-flyweis
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
