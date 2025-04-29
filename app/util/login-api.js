@@ -1,5 +1,5 @@
 import axios from "axios";
-import axiosInstance from "./Axiosinstance";
+
 
 export const login = async (email, password) => {
     try {
